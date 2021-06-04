@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nabar css open */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid #bbbbbb;
+}
+.navbar-nav{
+    margin-left: 65%;
+}
+title{
+    font-family: 'Cedarville Cursive', cursive;
+}
+.navbar-brand{
+    margin: 0% 10%;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 800;
+    font-size: 35px;
+    position: absolute;
+}
+.navbar-brand img{
+    width: 5%;
+    margin-top: -1%;
+}
+.nav-item{
+    font-size: 24px;
+    padding-left: 2%;
+}
+.nav-link img{
+    width: 13%;
+    margin-top: -3%;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+/* navbar css close */
+
+/* section1 css */
+#m-sec1{
+    font-family: 'Mate SC', serif;
+    width: 70%;
+    background-color: #f8f9fa;    
+    top: 10%;
+    position: absolute;
+
+}
+.cd{
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 2px 2px 6px black;
+}
+.Pr_img{
+    width: 6%;
+    margin-top: -1%;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+#comment{
+    border: none;
+    width: 100%;
+    background: white;
+}
+#comment:focus{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #f7f7f7;
+}
+.card-header{
+    background: white;
+}
+.card-footer{
+    background: white;
+}
+/* section css close */
+
+/* section2 css */
+#m-sec2{
+    width: 30%;
+    height: 90vh;
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 70%;
+    background: #f8f9fa;
+    font-family: 'Mate SC', serif;
+}
+.container img{
+    width: 13%;
+    margin-top: 8%;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+.container h6{
+    margin: 7.5% 66%;
+}
+.txt_cnt{
+    display: block;
+    position: absolute;
+    top: 4.5%;
+    left: 20%;
+}
+.padding-2{
+    color: blue;
+    padding-left: 38%;
+}
+.txt_cnt1{
+    margin-top: 7%;
+    margin-left: 7%;
+    display: block;
+}
+.padding-1-1{
+    position: relative;
+    top: 10%;
+}
+.padding-1-2{
+    position: relative;
+    margin-top: 13.5%;
+    margin-left: 9%;
+    color: blue;
+}
+.link{
+    display: flex;
+}
+.item{
+    list-style: none;
+    padding-left: 2%;
+    margin-top: 5%;
+}
+.item1{
+    list-style: none;
+    padding-left: 2%;
+    margin-top: -4%;
+}
+.item,.item1, a{
+    color: black;
+    text-decoration: none;
+}
+footer{
+    margin-top: 8%;
+    margin-left: 15%;
+}
+/* section css close */
